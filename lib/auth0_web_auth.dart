@@ -5,7 +5,8 @@ library auth0_web_auth;
 
 import 'package:auth0_web_auth/src/client/auth0_client.dart';
 import 'package:auth0_web_auth/src/definitions/auth0_client_options.dart';
-import 'package:auth0_web_auth/src/js/_auth0_js_interop.dart';
+import 'package:auth0_web_auth/src/stub/_auth0_js_interop.dart'
+    if (dart.library.html) 'package:auth0_web_auth/src/js/_auth0_js_interop.dart';
 
 export 'package:auth0_web_auth/src/client/auth0_client.dart';
 export 'package:auth0_web_auth/src/definitions/auth0_client_options.dart';
