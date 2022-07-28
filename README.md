@@ -4,14 +4,11 @@ a standalone authentication library in Dart.
 
 ## Features
 
-- Authentication with Auth0 (using (PKCE)[https://auth0.com/docs/get-started/authentication-and-authorization-flow/authorization-code-flow-with-proof-key-for-code-exchange-pkce])
+- Authentication with Auth0 using [PKCE](https://auth0.com/docs/get-started/authentication-and-authorization-flow/authorization-code-flow-with-proof-key-for-code-exchange-pkce)
 - Securing the app with Refresh Tokens
 - Use the returned access token to access a protected resource (eg. backend server)
 
 ## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
 
 ```dart
 var auth0client = await Auth0.create(Auth0ClientOptions(
