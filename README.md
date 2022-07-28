@@ -1,5 +1,4 @@
-This package is a Dart wrapper around the [official auth0-spa-js JavaScript package]
-(https://github.com/auth0/auth0-spa-js).
+This package is a Dart wrapper around the [official auth0-spa-js JavaScript package](https://github.com/auth0/auth0-spa-js).
 It enables adding Auth0 authentication to Flutter Web Apps without writing
 a standalone authentication library in Dart.
 
