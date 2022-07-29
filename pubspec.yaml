@@ -1,7 +1,7 @@
 name: auth0_web_auth
 description: This package provides a Dart wrapper around the auth0-spa-js library, making the Auth0 authentication available on Flutter Web.
 version: 1.0.0
-repository: https://bitbucket.org/tricasthu/auth0_web_auth
+repository: https://github.com/tricastdev/auth0_web_auth
 
 environment:
   sdk: '>=2.15.1 <3.0.0'
