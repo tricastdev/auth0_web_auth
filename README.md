@@ -10,6 +10,24 @@ a standalone authentication library in Dart.
 
 ## Usage
 
+- Add the auth0-spa-js JavaScript file to web/index.html, in the <head> section.
+
+```dart
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Other head content ... -->
+
+  <script src="https://cdn.auth0.com/js/auth0-spa-js/1.22.2/auth0-spa-js.development.js"></script>
+</head>
+<body>
+  <!-- Other body content ... -->
+</body>
+</html>
+```
+
+- Use the package in your app
+
 ```dart
 var auth0client = await Auth0.create(Auth0ClientOptions(
   domain: example-domain.eu.auth0.com, // Your domain
