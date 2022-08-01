@@ -1,6 +1,3 @@
-/// Support for doing something awesome.
-///
-/// More dartdocs go here.
 library auth0_web_auth;
 
 import 'package:auth0_web_auth/src/client/auth0_client.dart';

@@ -10,7 +10,7 @@ a standalone authentication library in Dart.
 
 ## Usage
 
-- Add the auth0-spa-js JavaScript file to web/index.html, in the <head> section.
+- Add the auth0-spa-js JavaScript file to web/index.html, in the HEAD section.
 
 ```dart
 <!DOCTYPE html>
